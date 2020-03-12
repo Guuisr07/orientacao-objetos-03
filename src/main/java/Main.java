@@ -1,5 +1,6 @@
 import exemplos.Conta;
 import exemplos.Quadrado;
+import exercicios.Circulo;
 import exercicios.Retangulo;
 
 import java.time.LocalDate;
@@ -11,6 +12,8 @@ public class Main {
         Conta c3 = new Conta(3, 2000.00, 3000.00);
 
         Retangulo r1 = new Retangulo(10.0, 20.0);
+
+        Circulo circulo1 = new Circulo(4.0, 3.14);
 
         Conta c4 = Conta.criarComLimite(4, 1500.00);
         Conta c5 = Conta.criarComLimiteESaldo(5, 1500.00, 5000.00);
