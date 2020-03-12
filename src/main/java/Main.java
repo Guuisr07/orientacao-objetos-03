@@ -1,6 +1,7 @@
 import exemplos.Conta;
 import exemplos.Quadrado;
 import exercicios.Circulo;
+import exercicios.Correntista;
 import exercicios.Retangulo;
 
 import java.time.LocalDate;
@@ -14,6 +15,10 @@ public class Main {
         Retangulo r1 = new Retangulo(10.0, 20.0);
 
         Circulo circulo1 = new Circulo(4.0, 3.14);
+
+        Correntista cor1 = new Correntista(342, "Guilherme");
+        cor1.setEmail("guisantana0204@gmail.com");
+        cor1.setTelefone("(11)95985-1403");
 
         Conta c4 = Conta.criarComLimite(4, 1500.00);
         Conta c5 = Conta.criarComLimiteESaldo(5, 1500.00, 5000.00);
